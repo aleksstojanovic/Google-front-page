@@ -1,0 +1,89 @@
+/* Grid Setup*/
+/*
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template: 1fr 3fr 2fr 1fr 1fr 1fr/repeat(3,1fr);
+    grid-gap:10px;
+}
+
+.footer1 {
+    display: grid;
+    grid-area: 5/1/7/4;
+    justify-items: start;
+}
+
+.header {
+    display: grid;
+    grid-area: 1/3/2/4;
+    justify-items: end;
+}
+
+.main{
+    display: grid;
+    grid-area:2/2/4/3;
+    justify-content: center;
+}
+
+.offered {
+    display: grid;
+    grid-area: 3/2/4/3;
+    align-self:end;
+}
+
+/* Grid setup end */
+
+body {
+    width:100%;
+    height: 100%;
+}
+header {
+    position:absolute;
+    top: auto;
+    right: 10px;
+    
+}
+
+.grid {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+.main {
+    
+    margin: 0, auto;
+    position: relative;
+    top:30%;
+    right: 25%;
+    left: 25%;
+    bottom: 60%;
+}
+span {
+    visibility: hidden;
+}
+input [type="text"]{
+    display: flex;
+    flex: 100%;
+    border-radius: 10px;
+    
+}
+input[type="submit"]{
+    display: inline-block;
+    
+}
+
+hr {
+visibility: hidden;
+} 
+
+.footer1 {
+    position: relative;
+    bottom:10px;
+    left: 10px;
+}
+
+.footer-nav li {
+    list-style: none;
+}
